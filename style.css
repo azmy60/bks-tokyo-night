@@ -1,0 +1,148 @@
+/* Tokyo Night Light — https://github.com/tokyo-night/tokyo-night-vscode-theme */
+.light-theme {
+  /* UI colors */
+  --background: #e6e7ed;
+  --base-gray: #d6d8df;
+  --base-blue: #2959aa;
+  --base-green: #33635c;
+  --base-yellow: #8f5e15;
+  --base-orange: #965027;
+  --base-red: #8c4351;
+  --base-purple: #65359d;
+  --base-pink: #7b43ba;
+  --base-accent: #2959aa;
+
+  /* Editor colors */
+  --tn-bg: #e6e7ed;
+  --tn-fg: #343b59;
+  --tn-cursor: #363c4d;
+  --tn-current-line: #dcdee3;
+  --tn-selection: #acb0bf40;
+  --tn-bracket-match: #cdced1;
+  --tn-comment: #888b94;
+  --tn-linenumber: #9da0ab;
+  --tn-linenumber-active: #363c4d;
+  --tn-variable: #343b58;
+  --tn-red: #8c4351;
+  --tn-error: #bd4040;
+  --tn-orange: #965027;
+  --tn-yellow: #8f5e15;
+  --tn-green: #385f0d;
+  --tn-teal: #33635c;
+  --tn-cyan: #006c86;
+  --tn-blue: #2959aa;
+  --tn-purple: #65359d;
+  --tn-operator: #006c86;
+  --tn-deleted: #914c54;
+}
+
+/* Tokyo Night — https://github.com/tokyo-night/tokyo-night-vscode-theme */
+.dark-theme {
+  /* UI colors */
+  --background: #16161e;
+  --base-gray: #1a1b26;
+  --base-blue: #7aa2f7;
+  --base-green: #73daca;
+  --base-yellow: #e0af68;
+  --base-orange: #ff9e64;
+  --base-red: #f7768e;
+  --base-purple: #bb9af7;
+  --base-pink: #bb9af7;
+  --base-accent: #7aa2f7;
+
+  /* Editor colors */
+  --tn-bg: #1a1b26;
+  --tn-fg: #a9b1d6;
+  --tn-cursor: #c0caf5;
+  --tn-current-line: #1e202e;
+  --tn-selection: #515c7e4d;
+  --tn-bracket-match: #16161e;
+  --tn-comment: #51597d;
+  --tn-linenumber: #363b54;
+  --tn-linenumber-active: #787c99;
+  --tn-variable: #c0caf5;
+  --tn-red: #f7768e;
+  --tn-error: #db4b4b;
+  --tn-orange: #ff9e64;
+  --tn-yellow: #e0af68;
+  --tn-green: #9ece6a;
+  --tn-teal: #73daca;
+  --tn-cyan: #0db9d7;
+  --tn-blue: #7aa2f7;
+  --tn-purple: #bb9af7;
+  --tn-operator: #89ddff;
+  --tn-deleted: #914c54;
+}
+
+.light-theme,
+.dark-theme {
+  /* ===== Button ===== */
+
+  /* Primary Button */
+  --btn-primary-fg: var(--gray-1);
+  --btn-primary-bg: var(--blue-9);
+  --btn-primary-bg-hover: var(--blue-10);
+
+  /* ===== Editor ===== */
+
+  /* Editor chrome */
+  --editor-bg: var(--tn-bg);
+  --editor-fg: var(--tn-fg);
+  --editor-cursor-bg: var(--tn-cursor);
+  --editor-selected-bg: var(--tn-selection);
+  --editor-activeline-bg: var(--tn-current-line);
+  --editor-activeline-gutter-bg: var(--tn-current-line);
+  --editor-error-fg: var(--tn-error);
+  --editor-gutter-bg: var(--tn-bg);
+  --editor-linenumber-fg: var(--tn-linenumber);
+  --editor-linenumber-active-fg: var(--tn-linenumber-active);
+  --editor-foldgutter-fg: var(--tn-linenumber);
+  --editor-foldgutter-fg-hover: var(--tn-fg);
+
+  /* Matches and markers */
+  --editor-guttermarker-subtle-fg: var(--tn-comment);
+  --editor-matchingselection-bg: var(--tn-selection);
+  --editor-matchingbracket-fg: var(--tn-fg);
+  --editor-matchingbracket-bg: var(--tn-bracket-match);
+  --editor-fatcursor-bg: var(--tn-cursor);
+
+  /* Vim panel */
+  --editor-vim-panel-visual-bg: var(--blue-a3);
+  --editor-vim-panel-visual-fg: var(--blue-11);
+
+  /* ===== Color Syntax ===== */
+
+  --syntax-comment: var(--tn-comment);
+  --syntax-constant: var(--tn-orange);
+  --syntax-decorator: var(--tn-blue);
+  --syntax-function: var(--tn-blue);
+  --syntax-keyword: var(--tn-purple);
+  --syntax-link: var(--tn-teal);
+  --syntax-punctuation: var(--tn-operator);
+  --syntax-string: var(--tn-green);
+  --syntax-type: var(--tn-cyan);
+  --syntax-variable: var(--tn-variable);
+
+  --editor-self-fg: var(--tn-red);
+  --editor-standard-fg: var(--tn-cyan);
+  --editor-escape-fg: var(--tn-operator);
+  --editor-parameter-fg: var(--tn-yellow);
+  --editor-typeParameter-fg: var(--tn-yellow);
+  --editor-class-fg: var(--tn-cyan);
+  --editor-className-fg: var(--tn-cyan);
+  --editor-attributeName-fg: var(--tn-purple);
+  --editor-processingInstruction-fg: var(--tn-purple);
+  --editor-meta-fg: var(--tn-fg);
+  --editor-event-fg: var(--tn-fg);
+  --editor-heading-fg: var(--tn-blue);
+  --editor-deleted-fg: var(--tn-deleted);
+  --editor-operator-fg: var(--tn-operator);
+  --editor-strong-fg: var(--tn-variable);
+  --editor-emphasis-fg: var(--tn-variable);
+  --editor-strikethrough-fg: var(--tn-comment);
+
+  /* ===== Mongo Shell ===== */
+
+  --mongo-shell-mongo-prompt-fg: var(--tn-green);
+  --mongo-shell-ansi-output-fg: var(--tn-fg);
+}
